@@ -1,0 +1,79 @@
+Body{
+
+background-image: url(back.jpeg );
+background-repeat: repeat-y;
+background-size:cover;
+
+
+}
+.ANA{
+  align-items: center;
+display: flex;
+justify-content: center;
+}
+.yapımcı{
+
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  display: block;
+}
+.Oyun{
+background-color: rgba(0, 0, 0, 60%);
+margin-top:0;
+height: 792px;
+width: 800px;
+text-align: center;
+margin-top: 5%;
+border: 4px solid white ;
+position: relative;
+}
+
+.Yılan{
+  background-image: linear-gradient(green,red);
+  position: absolute;
+ width: 40px;
+ height: 40px;
+ border-radius: 40px;
+ border: solid 2px black;
+ display: block;
+}
+
+.Yem{
+  background-image: linear-gradient(red,yellow);
+  position: absolute;
+ width: 40px;
+ height: 40px;
+ border-radius: 50px;
+}
+
+.score{
+  background-color: rgba(255, 255, 255, 80%);
+  width: 55px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.Yılan-segment {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(green,red);
+  border-radius: 40px;
+  border: 2px solid black;
+}
+
+.resim{
+  width: 450px;
+  height: 300px;
+  
+}
+
+.resim2{
+  width: 450px;
+  height: 500px;
+  
+}
